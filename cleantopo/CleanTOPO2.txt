@@ -1,0 +1,14 @@
+http://www.shadedrelief.com/cleantopo2/index.html
+CleanTOPO2
+Edited SRTM30 Plus World Elevation Data
+CleanTOPO2 is a touched up and generalized version of SRTM30 Plus, a public domain dataset that combines sea floor and land elevation data of the entire world. The intent of these changes is to create an elevation dataset more applicable to the graphical needs of cartographers, such as for making shaded relief and 3D panoramas. SRTM30 Plus and an earlier related dataset, ETOPO2, feature bathymetry data released by Smith and Sandwell in 1997. As remarkable as this dataset is, it nevertheless contains numerous artifacts that mar map presentations. In CleanTOPO2, manual editing to the elevation data itself has removed many of the bathymetry artifacts (Figure 1). Until the day arrives that improved bathymetric data are released by the scientific community, CleanTOPO2 offers a stopgap solution for those creating maps and related graphics.
+
+
+<b>Data</b></font><i> — hosted by Florida State University, <a href="http://www.freac.fsu.edu/">FREAC</a></i><font size="+1"><br>
+CleanTOPO2 comes in three versions tailored to meet different design and production needs. All versions are 16-bit grayscale TIF files measuring 10,800 x 5,400-pixels and include a World (.tfw) file and "Read me" document with projection and datum information. The Geographic projection is used. All data available here are in the public domain.
+					<p><a href="http://www.nacis.org/data/cleantopo/Full.zip">CleanTOPO2 (68.8MB)</a> - Full resolution terrestrial and bathymetric elevation data. Note: the terrestrial data in this version may be too detailed for some small-scale mapping.<br>
+<br>
+<a href="http://www.nacis.org/data/cleantopo/2D.zip">CleanTOPO2 - 2D version (68.8MB)</a> - Slightly downsampled terrestrial and full resolution bathymetric elevation data. This version is optimized for creating small-scale 2D shaded relief.<br>
+<br>
+<a href="http://www.nacis.org/data/cleantopo/3D.zip">CleanTOPO2 - 3D version (68.5MB)</a> - Downsampled terrestrial and bathymetric elevation data. This version also uses <a href="http://www.shadedrelief.com/bumping/bumping.html" target="_blank">resolution bumping</a> to control tall solitary peaks (including seamounts and guyots) from spiking upwards with the application of vertical exaggeration in a 3D scene (Figure 7).
+
