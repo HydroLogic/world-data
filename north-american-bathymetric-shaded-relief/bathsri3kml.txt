@@ -1,0 +1,383 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: National Atlas of the United States
+      Publication_Date: 200509
+      Title: Bathymetric Shaded Relief of North America
+      Geospatial_Data_Presentation_Form: Raster digital data
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: National Atlas of the United States
+      Online_Linkage: <http://nationalatlas.gov/atlasftp.html>
+  Description:
+    Abstract:
+      The Bathymetric Shaded Relief of North America map layer shows depth 
+      ranges using colors, with relief enhanced by shading.  The image was 
+      derived from the National Geophysical Data Center’s ETOPO2 elevation data, 
+      which is an elevation database gridded at 2-minute resolution, containing 
+      elevation and bathymetry for the world.  The image was produced from the 
+      October 2001 data set.  
+    Purpose:
+      The bathymetric shaded relief image was developed to portray the 
+      underwater terrain of North America.  The image is intended for visual 
+      purposes only.  The original ETOPO2 data must be used for conducting 
+      analysis and determining specific bathymetric values.
+    Supplemental_Information:
+       This image contains color shaded relief in RGB color space.  For access 
+       to the original 2-byte data, please visit the National Geophysical Data 
+       Center web site mentioned below.
+
+       The associated world file is included as part of the GeoTIFF.  The 
+       contents of the world file are:
+       >3107.6802
+       >0.000000
+       >0.000000
+       >-3107.6802
+       >-6084141.6440
+       >4487139.6139
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 200110             
+    Currentness_Reference: Publication date of source material
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 166
+      East_Bounding_Coordinate: -4
+      North_Bounding_Coordinate: 83
+      South_Bounding_Coordinate: 15
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Elevation
+      Theme_Keyword: Imagery/Base Maps/Earth Cover
+      Theme_Keyword: Oceans
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Digital Elevation Model
+      Theme_Keyword: Shaded Relief
+      Theme_Keyword: Bathymetry
+      Theme_Keyword  Bathymetric
+      Theme_Keyword: Topography
+      Theme_Keyword: Topographic
+      Theme_Keyword: Oceans
+      Theme_Keyword: Elevation
+      Theme_Keyword: ETOPO2
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North America
+      Place_Keyword: Canada
+      Place_Keyword: Greenland
+      Place_Keyword: Iceland
+      Place_Keyword: United States
+      Place_Keyword: Mexico
+      Place_Keyword: Atlantic
+      Place_Keyword: Caribbean
+      Place_Keyword: Pacific
+      Place_Keyword: Puerto Rico
+      Place_Keyword: U.S. Virgin Islands
+      Place_Keyword: Alabama
+      Place_Keyword: Alaska
+      Place_Keyword: Arizona
+      Place_Keyword: Arkansas
+      Place_Keyword: California
+      Place_Keyword: Colorado
+      Place_Keyword: Connecticut
+      Place_Keyword: Delaware
+      Place_Keyword: District of Columbia
+      Place_Keyword: Florida
+      Place_Keyword: Georgia
+      Place_Keyword: Hawaii
+      Place_Keyword: Idaho
+      Place_Keyword: Illinois
+      Place_Keyword: Indiana
+      Place_Keyword: Iowa
+      Place_Keyword: Kansas
+      Place_Keyword: Kentucky
+      Place_Keyword: Louisiana
+      Place_Keyword: Maine
+      Place_Keyword: Maryland
+      Place_Keyword: Massachusetts
+      Place_Keyword: Michigan
+      Place_Keyword: Minnesota
+      Place_Keyword: Mississippi
+      Place_Keyword: Missouri
+      Place_Keyword: Montana
+      Place_Keyword: Nebraska
+      Place_Keyword: Nevada
+      Place_Keyword: New Hampshire
+      Place_Keyword: New Jersey
+      Place_Keyword: New Mexico
+      Place_Keyword: New York
+      Place_Keyword: North Carolina
+      Place_Keyword: North Dakota
+      Place_Keyword: Ohio
+      Place_Keyword: Oklahoma
+      Place_Keyword: Oregon
+      Place_Keyword: Pennsylvania
+      Place_Keyword: Rhode Island
+      Place_Keyword: South Carolina
+      Place_Keyword: South Dakota
+      Place_Keyword: Tennessee
+      Place_Keyword: Texas
+      Place_Keyword: Utah
+      Place_Keyword: Vermont
+      Place_Keyword: Virginia
+      Place_Keyword: Washington
+      Place_Keyword: West Virginia
+      Place_Keyword: Wisconsin
+      Place_Keyword: Wyoming
+  Access_Constraints: None.
+  Use_Constraints:
+    None.  Acknowledgment of the National Atlas of the United States would be 
+    appreciated in products derived from these data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: L. Greg Matheson
+        Contact_Organization: U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 12201 Sunrise Valley Drive, MS 561
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 703-648-5077
+      Contact_Electronic_Mail_Address: lmatheso@usgs.gov
+  Native_Data_Set_Environment: 
+    3-band TIFF format created using Arc/INFO 8.3
+  Cross_Reference:
+    Citation_Information:
+      Originator: National Atlas of the United States
+      Publication_Date: 200506
+      Title: Bathymetry of North America
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: National Atlas of the United States
+      Online_Linkage: <http://nationalatlas.gov/atlasftp.html>
+
+Data_Quality_Information:
+  Logical_Consistency_Report:
+    No tests for logical consistency have been performed on this map layer.
+  Completeness_Report:
+    Data completeness reflects the content of the original ETOPO2 elevation 
+    data.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: National Geophysical Data Center 
+          Publication_Date: 200110
+          Title: ETOPO2 Global 2' Elevations
+          Publication_Information:
+            Publication_Place: Boulder, CO, USA
+            Publisher: National Geophysical Data Center 
+          Online_Linkage: <http://www.ngdc.noaa.gov/mgg/image/2minrelief.html>
+      Type_Of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2001
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: NGDC - ETOPO2 
+      Source_Contribution: Elevation information.
+    
+    Process_Step:
+      Process_Description: 
+        The ETOPO2 data set was downloaded from the National Geophysical Data 
+        Center web site using their GEODAS Grid Translator Design–a-Grid 
+        interface.  This interface allows a user to create custom grids.  Users 
+        can access the web interface at 
+        <http://www.ngdc.noaa.gov/mgg/gdas/gd_designagrid.html>. The following 
+        grid parameters were used:
+        >Grid Database:                   ETOPO2 2-minute Global Relief
+        >Latitude/Longitude Area Bounds:  90°0'N to 90°0'S, 180°0'W to 180°0'E
+        >Grid Cell Size:                  2 minutes
+        >Grid Cell Value Parameters:      2-byte integers, whole meters
+        >Grid Format:                     ASCII raster format, Arc header 
+
+        The downloaded grid was converted to an Arc/INFO grid using the 
+        ArcToolbox import-to-raster interface.  ArcToolbox was also used to 
+        define the initial coordinate system as Geographic (Lat/Lon) with units 
+        in decimal degrees, and the datum as WGS 1984.  East and west grids were 
+        derived from the main grid using the Arc/INFO command GRIDCLIP.  The 
+        east grid coverage was from 150 degrees to 180 degrees longitude and 
+        0 degrees to 90 degrees latitude.  The west grid coverage was from 0 
+        degrees to -180 degrees longitude and 0 degrees to 90 degrees latitude.  
+        The Arc/INFO command GRIDSHIFT was used to shift each grid 40 degrees 
+        east, moving all data into the Western hemisphere.  This data processing 
+        step was necessary due to the inability of Arc/INFO to project raster 
+        data across the 180-degree longitude line.  The Arc/INFO Grid command 
+        MERGE was used to combine the two grids into one grid.  This grid was 
+        projected into the Lambert Azimuthal Equal Area projection, centered on 
+        100 degrees West, 45 degrees North.  The .prj file used in the Arc 
+        PROJECT command contained these parameters:
+        > INPUT
+        > PROJECTION GEOGRAPHIC
+        > UNITS DD
+        > PARAMETERS
+        > OUTPUT
+        > PROJECTION LAMBERT_AZIMUTHAL
+        > UNITS METERS
+        > XSHIFT 0.0
+        > YSHIFT 0.0
+        > PARAMETERS
+        > 0.0
+        > -60 0 0
+        > 45 0 0
+        > 0.0
+        > 0.0
+        > END
+        >
+        Using a center of longitude of 60 degrees West in the projection 
+        parameters creates an actual center of 100 degrees West due to the grid 
+        shift of 40 degrees.  After projecting the data, the Arc/INFO command 
+        PROJECTDEFINE was used to reset the central meridian to 100 degrees 
+        West.  The Arc/INFO command GRIDCLIP was used to clip the grid to match 
+        the dimensions used for National Atlas of the United States data.
+
+        The bathymetric color shaded relief image was created by combining two 
+        files.  The first was a color image created by converting the depths 
+        from meters to feet, classifying the data into depth ranges, and then 
+        assigning an RGB color to each range, as shown below.
+        >Depth Range         Index  Red    Green   Blue
+        >From      To
+        >-28300    -16000      1    53     146     214
+        >-15999    -12000      2    87     159     220
+        >-11999    -9000       3    124    180     231
+        >-8999     -6000       4    146    194     237
+        >-5999     -3000       5    170    212     243
+        >-2999     -1500       6    186    219     247
+        >-1499     -750        7    200    228     251
+        >-749      20320       8    216    236     252
+        The lightest color tint (index 8) extended across the land area.  The 
+        file was converted to TIFF format using the command GRIDIMAGE.  Adobe 
+        Photoshop was used to convert this image from RGB to CMY (no black).
+
+        The second file was a grayscale shaded relief rendition of the elevation 
+        data created with the Arc/INFO Grid command HILLSHADE.  The data were 
+        first filtered using a smoothing filter to lessen noise in the data.  
+        The HILLSHADE command was then performed using the following parameters:
+        >azimuth = 315 degrees
+        >altitude  = 45 degrees
+        >shade type = SHADE
+        >vertical exaggeration = 5.0
+        The file was added as a black (K) band to the first file (CMY), to 
+        create a CMYK color shaded relief image.  Overall contrast was enhanced 
+        and then, in Adobe Photoshop, the CMYK image was converted to RGB.  
+      Source_Used_Citation_Abbreviation: NGDC - ETOPO2
+      Process_Date: 200504
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Raster
+  Raster_Object_Information:
+    Raster_Object_Type: Grid cell
+    Row_Count: 2340
+    Column_Count: 3335
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Azimuthal Equal Area
+        Lambert_Azimuthal_Equal_Area:
+          Longitude_of_Projection_Center: -100.00
+          Latitude_of_Projection_Center: 45.00
+          False_Easting: 0.0
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Row and column
+        Coordinate_Representation:
+          Abscissa_Resolution: 3107.680
+          Ordinate_Resolution: 3107.680
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: None
+      Ellipsoid_Name: Sphere
+      Semi-major_Axis: 6370997.0
+      Denominator_of_Flattening_Ratio: 1.0
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Bathymetric shaded relief TIFF image grid cell
+      Entity_Type_Definition: 
+        Any of the data elements in the bathymetric shaded relief file.
+      Entity_Type_Definition_Source: U.S. Geological Survey
+    Attribute:
+      Attribute_Label: 
+        Bathymetric shaded relief TIFF image red-green-blue values
+      Attribute_Definition: 
+        Color values for the 3 bands of the TIFF image.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 253
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Earth Science Information Center, U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 507 National Center
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+      Contact_Instructions:
+        In addition to the address above there are other ESIC offices 
+        throughout the country.  A full list of these offices is at
+        <http://geography.usgs.gov/esic/esic_index.html>.
+  Distribution_Liability:
+    Although these data have been processed successfully on a computer system 
+    at the U.S. Geological Survey, no warranty expressed or implied is made by 
+    the U.S. Geological Survey regarding the utility of the data on any other 
+    system, nor shall the act of distribution constitute any such warranty.  No 
+    responsibility is assumed by the U.S. Geological Survey in the use of these 
+    data.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: TIFF
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name:
+                <http://nationalatlas.gov/atlasftp.html>
+    Fees: There is no charge for the map layer.
+    
+Metadata_Reference_Information:
+  Metadata_Date: 20050726
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Peg Rawson
+        Contact_Organization: National Atlas of the United States
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 12201 Sunrise Valley Drive
+        Address: MS-561 
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+        Country: USA
+      Contact_Voice_Telephone: 703-648-4183
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+  Metadata_Standard_Name: 
+    FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
+
