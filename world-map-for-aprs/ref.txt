@@ -1,0 +1,3 @@
+http://aprsworld.net/gisdata/world/
+World Map for APRS in ESRI Shapefile Format
+Last modified: 2009-02-12
