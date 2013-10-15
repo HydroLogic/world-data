@@ -1,0 +1,789 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Instituto Nacional de Estadística Geografía e Informática 
+      Originator: 
+        Government of Canada, Natural Resources Canada, Canada Centre for Remote 
+        Sensing, The Atlas of Canada
+      Originator: U.S. Geological Survey
+      Publication_Date: 200406
+      Title: North American Atlas - Populated Places
+      Geospatial_Data_Presentation_Form: Vector digital data  
+      Publication_Information:
+        Publication_Place: Ottawa, Ontario, Canada
+        Publisher: Government of Canada
+      Online_Linkage:
+        http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/popplaces/
+      Publication_Information:
+        Publication_Place: Aguascalientes, Aguascalientes, Mexico
+        Publisher: 
+          Instituto Nacional de Estadística, Geografía e Informática (INEGI)
+      Online_Linkage: http://antares.inegi.gob.mx/atlas_norteamerica/
+      Publication_Information:
+        Publication_Place: Reston, Virginia, USA
+        Publisher: U.S. Geological Survey
+      Online_Linkage: http://nationalatlas.gov/atlasftp.html
+
+  Description:
+    Abstract:
+      A joint venture involving the National Atlas programs in Canada (Natural 
+      Resources Canada), Mexico (Instituto Nacional de Estadística Geografía e 
+      Informática), and the United States (U.S. Geological Survey), as well as 
+      the North American Commission for Environmental Co-operation, has led to 
+      the release (June 2004) of several new products: an updated paper map of 
+      North America, and its associated geospatial data sets and their metadata.  
+      These data sets are available online from each of the partner countries 
+      both for visualization and download.
+
+      The North American Atlas data are standardized geospatial data sets at 
+      1:10,000,000 scale.  A variety of basic data layers (e.g. roads, 
+      railroads, populated places, political boundaries, hydrography, 
+      bathymetry, sea ice and glaciers) have been integrated so that their 
+      relative positions are correct.  This collection of data sets forms a base 
+      with which other North American thematic data may be integrated.  Any data 
+      outside of Canada, Mexico, and the United States of America included in 
+      the North American Atlas data sets is strictly to complete the context of 
+      the data.
+
+      The North American Atlas - Populated Places data set shows a selection of 
+      named populated places suitable for use at a scale of 1:10,000,000.  Places, 
+      which refer to individual municipalities, are always shown using point 
+      symbols.  These symbols have been fitted to the North American Atlas roads, 
+      railroads, and hydrography layers, so that the points represent the 
+      approximate locations of places relative to data in these other layers.  
+      The selection of populated places was based on local importance (as shown 
+      by population size), importance as a cross-border point, and, occasionally, 
+      on other factors.  All capital cities (national, provincial, territorial or 
+      State) are shown for Canada, Mexico, and the United States of America.  
+      Attributes were added to the data to reflect population class, name, and 
+      capital.  Cartographic considerations were taken into account so that names 
+      do not overlap in crowded areas, nor are there too many names shown for 
+      sparsely-populated areas.  
+
+    Purpose:
+      The North American Atlas data are intended for geographic display and 
+      analysis at the national and continental level.  These data should be 
+      displayed and analyzed at scales appropriate for 1:10,000,000-scale data.  
+      No responsibility is assumed by Natural Resources Canada, Instituto 
+      Nacional de Estadística Geografía e Informática, or the U.S. Geological 
+      Survey in the use of these data.
+    Supplemental_Information:
+      The Commission for Environmental Cooperation (CEC) is an international
+      organization created by Canada, Mexico, and the United States of America 
+      under the North American Agreement on Environmental Cooperation (NAAEC).  
+      The CEC was established to address regional environmental concerns, help 
+      prevent potential trade and environmental conflicts, and to promote the 
+      effective enforcement of environmental law.  The Agreement complements the
+      environmental provisions of the North American Free Trade Agreement 
+      (NAFTA).  Further information on the CEC is available from 
+      http://www.cec.org/ or from 
+      >Commission for Environmental Cooperation
+      >393, rue St-Jacques Ouest
+      >Bureau 200
+      >Montréal (Québec)
+      >H2Y 1N9 Canada
+      > 
+      >Telephone: 514 350 4300
+      >Facsimile: 514 350 4314
+      >Electronic mail: info@ccemtl.org
+      >
+      All North American Atlas data sets are available in four data formats: 
+      Arc/INFO Export format (e00), ArcView Shapefile, Geography Markup Language 
+      (GML) and Spatial Data Transfer Standard (SDTS).
+
+      Although these data are distributed in geographic coordinates, the North 
+      American Atlas Map uses a Lambert Azimuthal Equal Area projection.  The 
+      following parameters were used for the map:
+      >Longitude_of_Projection_Center: -100.00 
+      >Latitude_of_Projection_Center: 45.00 
+      >False_Easting (metres): 0.0 
+      >False_Northing (metres): 0.0 
+      >Semi-major_Axis: 6370997.0 
+      >Denominator_of_Flattening_Ratio: 1.0
+      >Ellipsoid_Name: Sphere 
+      >Units: metres
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 200406
+    Currentness_Reference: Publication date
+
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Irregular 
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 152.0 
+      East_Bounding_Coordinate: 4.0
+      North_Bounding_Coordinate: 90.0
+      South_Bounding_Coordinate: -5.0
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None 
+      Theme_Keyword: Population
+      Theme_Keyword: Population Distribution
+      Theme_Keyword: Urban Settlement
+      Theme_Keyword: Human Settlement
+      Theme_Keyword: Cities
+      Theme_Keyword: Villages
+      Theme_Keyword: Towns
+
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Mid-latitude
+      Place_Keyword: Western Hemisphere
+      Place_Keyword: Northern Hemisphere
+      Place_Keyword: North America
+      Place_Keyword: NAFTA
+      Place_Keyword: North America Free Trade Agreement
+      Place_Keyword: Canada
+      Place_Keyword: Mexico
+      Place_Keyword: United States
+
+  Access_Constraints: None
+  Use_Constraints: 
+    All data for Canada and other areas outside of Mexico and the United 
+    States of America are covered by the Geogratis User Agreement for Digital 
+    Data; see http://geogratis.cgdi.gc.ca/e_license.html.
+
+    No use constraints are applied to data for Mexico and the United States of 
+    America.  Acknowledgment of the North American Atlas, Instituto Nacional de 
+    Estadística Geografía e Informática, Natural Resources Canada, and (or) the 
+    U.S. Geological Survey would be appreciated in products derived from these 
+    data.
+
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Government of Canada, Natural Resources Canada, Canada Centre for 
+          Remote Sensing, The Atlas of Canada
+      Contact_Position: Atlas of Canada Client Services
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: Room 650-615 Booth Street
+        City: Ottawa
+        State_or_Province: Ontario
+        Country: Canada
+        Postal_Code: K1A 0E9
+      Contact_Facsimile_Telephone: +01 613 947 2410
+      Contact_Electronic_Mail_Address: info@atlas.gc.ca
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jorge Padilla Noriega
+        Contact_Organization: Dirección General de Geografía, INEGI
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: Av Heroe de Nacozari Sur 2301
+        Address: Fracc Jardines del Parque
+        City: Aguascalientes
+        State_or_Province: Aguascalientes
+        Country: Mexico
+        Postal_Code: 20270
+      Contact_Voice_Telephone: 52 449 910 5349
+      Contact_Electronic_Mail_Address: jorge.padilla@inegi.gob.mx
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: John Hutchinson
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: USGS EROS Data Center
+        City: Sioux Falls		
+        State_or_Province: South Dakota
+        Country: USA
+        Postal_Code: 57198-0001
+      Contact_Voice_Telephone: 605 594 6049
+      Contact_Facsimile_Telephone: 605 594 6529
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: 
+      Where possible, attribute data were quality controlled by creating 
+      symbolized digital displays or hard copy plots, which were visually 
+      verified with digital or hard copy reference data.  Attribute data that 
+      could not be verified in such a manner were interactively queried to check 
+      for anomalies such as duplication of data in fields requiring unique 
+      values and incorrect feature coding.  Data for areas outside of Canada, 
+      Mexico, and the United States of America are only provided for context;
+      Natural Resources Canada, Instituto Nacional de Estadística Geografía e 
+      Informática, and the U.S. Geological Survey assume no responsibility 
+      for the completeness, accuracy, or presentation of this data.
+  Logical_Consistency_Report: 
+    Logical consistency of the data was ensured by using the same selection 
+    criteria for all three countries.  
+  Completeness_Report:
+    This data set includes populated places for all of North America as shown at 
+    1:10,000,000 scale.  The data completeness reflects the content of the 
+    source data, the integration done by the cartographers, and the quality 
+    control of the content performed by each country.
+  Positional_Accuracy: 
+    Horizontal_Positional_Accuracy: 
+      Horizontal_Positional_Accuracy_Report: 
+        Positional accuracy of the data is unknown.  Positions are dependent on 
+        the positioning of the data in the integration processes.  Data for 
+        areas outside of Canada, Mexico, and the United States of America are 
+        only provided for context; Natural Resources Canada, Instituto Nacional 
+        de Estadística Geografía e Informática, and the U.S. Geological Survey 
+        assume no responsibility for the completeness, accuracy, or presentation 
+        of this data.
+
+  Lineage:
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: 
+            Government of Canada, Natural Resources Canada, Canada Centre for 
+            Remote Sensing, The Atlas of Canada 
+          Publication_Date: 2000
+          Title: 
+            North America, National Atlas of Canada Reference Map Series – 
+            Populated Places
+          Geospatial_Data_Presentation_Form: Vector digital data     
+          Publication_Information:
+            Publication_Place: Ottawa, Ontario, Canada
+            Publisher: 
+              Government of Canada, Natural Resources Canada, Canada Centre for 
+              Remote Sensing, The Atlas of Canada
+      Source_Scale_Denominator: 10,000,000
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information: 
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: Ground condition
+      Source_Citation_Abbreviation: CA Places
+      Source_Contribution: Spatial and attribute information
+
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: Statistics Canada
+          Publication_Date: 2002
+          Title: A National Overview: Population and Dwelling Counts
+          Geospatial_Data_Presentation_Form: Vector digital data     
+          Publication_Information:
+            Publication_Place: Ottawa, Ontario, Canada
+            Publisher: Government of Canada, Industry Canada
+          Other_Citation_Details: 
+            The 2001 Census of Canada, Catalogue Number 93-360-XPB
+      Source_Scale_Denominator: 2,000,000
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2001
+        Source_Currentness_Reference: Ground condition
+      Source_Citation_Abbreviation: 2001 Census CA
+      Source_Contribution: Spatial  and attribute information
+
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: 
+            Instituto Nacional de Estadística Geografía e Informática (INEGI)
+          Publication_Date: 2000
+          Title: 
+            Localidades por municipio, y su distribución según tamaño de 
+            localidad, XII Censo General de Población y Vivienda 2000
+          Publication_Information:
+            Publication_Place: Aguascalientes, Aguascalientes, Mexico
+            Publisher: Government of Mexico, INEGI
+      Source_Scale_Denominator: 10,000,000
+      Type_of_Source_Media: Online 
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: Ground condition
+      Source_Citation_Abbreviation: 2000 Census MX
+      Source_Contribution: Spatial and attribute information
+
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Census Bureau
+          Publication_Date: 2002
+          Title: United States Census 2000
+          Publication_Information:
+            Publication_Place: Washington, DC, USA
+            Publisher: U.S. Census Bureau
+      Source_Scale_Denominator: 10,000,000
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2000
+        Source_Currentness_Reference: Ground condition
+      Source_Citation_Abbreviation: 2000 Census USA
+      Source_Contribution: Spatial and attribute information
+
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: Instituto Nacional de Estadística Geografía e Informática 
+          Originator: 
+            Government of Canada, Natural Resources Canada, Canada Centre for 
+            Remote Sensing, The Atlas of Canada
+          Originator: U.S. Geological Survey
+          Publication_Date: 200406
+          Title: North American Atlas – Hydrography
+          Geospatial_Data_Presentation_Form: Vector digital data     
+          Publication_Information:
+            Publication_Place: Ottawa, Ontario, Canada
+            Publisher: 
+              Government of Canada, Natural Resources Canada, Canada Centre for 
+              Remote Sensing, The Atlas of Canada
+          Publication_Information:
+            Publication_Place: Aguascalientes, Aguascalientes, Mexico
+            Publisher:
+              Instituto Nacional de Estadística, Geografía e Informática 
+              (INEGI)
+          Publication_Information:
+            Publication_Place: Reston, Virginia, USA
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 10,000,000
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information: 
+          Single_Date/Time:
+            Calendar_Date: 2004
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: NAA Hydro
+      Source_Contribution: Spatial information
+
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: Instituto Nacional de Estadística Geografía e Informática 
+          Originator: 
+            Government of Canada, Natural Resources Canada, Canada Centre for 
+            Remote Sensing, The Atlas of Canada
+          Originator: U.S. Geological Survey
+          Publication_Date: 200406
+          Title: North American Atlas – Roads
+          Geospatial_Data_Presentation_Form: Vector digital data     
+          Publication_Information:
+            Publication_Place: Ottawa, Ontario, Canada
+            Publisher: 
+              Government of Canada, Natural Resources Canada, Canada Centre for 
+              Remote Sensing, The Atlas of Canada
+          Publication_Information:
+            Publication_Place: Aguascalientes, Aguascalientes, Mexico
+            Publisher: 
+              Instituto Nacional de Estadística, Geografía e Informática 
+              (INEGI)
+          Publication_Information:
+            Publication_Place: Reston, Virginia, USA
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 10,000,000
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information: 
+          Single_Date/Time:
+            Calendar_Date: 2004
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: NAA Roads
+      Source_Contribution: Spatial information
+
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: Instituto Nacional de Estadística Geografía e Informática 
+          Originator: 
+            Government of Canada, Natural Resources Canada, Canada Centre for 
+            Remote Sensing, The Atlas of Canada
+          Originator: U.S. Geological Survey
+          Publication_Date: 200406
+          Title: North American Atlas – Railroads
+          Geospatial_Data_Presentation_Form: Vector digital data     
+          Publication_Information:
+            Publication_Place: Ottawa, Ontario, Canada
+            Publisher: 
+              Government of Canada, Natural Resources Canada, Canada Centre for 
+              Remote Sensing, The Atlas of Canada
+          Publication_Information:
+            Publication_Place: Aguascalientes, Aguascalientes, Mexico
+            Publisher: 
+              Instituto Nacional de Estadística, Geografía e Informática 
+              (INEGI)
+          Publication_Information:
+            Publication_Place: Reston, Virginia, USA
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 10,000,000
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information: 
+          Single_Date/Time:
+            Calendar_Date: 2004
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: NAA Rails
+      Source_Contribution: Spatial information
+
+    Process_Step:
+      Process_Description:
+        Point data from the 1:10,000,000 Atlas of Canada populated places file 
+        was projected and fitted to the North American Atlas Hydrography, 
+        Roads and Railroads layers.
+      Source_Used_Citation_Abbreviation: CA Places
+      Source_Used_Citation_Abbreviation: NAA Hydro
+      Source_Used_Citation_Abbreviation: NAA Roads
+      Source_Used_Citation_Abbreviation: NAA Rails
+      Process_Date: 2003
+
+    Process_Step:
+      Process_Description:
+        Populated place data for Canada, Mexico, and the United States of 
+        America was taken from the most recent census of each country.  Places 
+        were included if they were locally significant and if their names could 
+        be displayed legibly (without overlap of names on the cartographic 
+        product).  Attributes were added to the data.
+      Source_Used_Citation_Abbreviation: 2001 Census CA
+      Source_Used_Citation_Abbreviation: 2000 Census MX
+      Source_Used_Citation_Abbreviation: 2000 Census USA
+      Process_Date: 2004
+
+    Process_Step:
+      Process_Description:
+        Each country performed a final cartographic check to verify the 
+        selection and position of the points.  The attributes were also 
+        verified.
+      Process_Date: 2004
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information: 
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 1858
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic: 
+      Latitude_Resolution: 0.000001 
+      Longitude_Resolution: 0.000001
+      Geographic_Coordinate_Units: Decimal degrees 
+    Geodetic_Model: 
+      Horizontal_Datum_Name: North American Datum of 1983 
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Populated place
+      Entity_Type_Definition: 
+        An individual named municipality that is locally important (as 
+        indicated  by population size) or which has importance as a cross-border 
+        point, or which is included based on other factors.  
+      Entity_Type_Definition_Source: North American Atlas GIS Group 
+    Attribute:
+      Attribute_Label: UIDENT
+      Attribute_Definition:
+        The unique identifier.  A unique number that is assigned to each feature 
+        in the North American Atlas data.  The last two digits of the identifier 
+        are a suffix indicating the map layer.
+      Attribute_Definition_Source: North American Atlas GIS Group
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 107
+          Range_Domain_Maximum: 185807
+    Attribute:
+      Attribute_Label: PopClass
+      Attribute_Definition: The population range of the populated place.
+      Attribute_Definition_Source: North American Atlas GIS Group
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: 
+            The population is in the range 1-9,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: 
+            The population is in the range 10,000-99,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: 
+            The population is in the range 100,000-999,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: 
+            The population is in the range 1,000,000-2,999,999.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: 
+            The population is 3,000,000 or greater.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+    Attribute:
+      Attribute_Label: Name
+      Attribute_Definition: The official name of the populated place.
+      Attribute_Definition_Source: North American Atlas GIS Group
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: The Canadian Geographical Names Data Base
+          Codeset_Source: 
+            The Canadian Permanent Committee on Geographical Names
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Toponymic data set 1:4,000,000
+          Codeset_Source: 
+            Instituto Nacional de Estadística Geografía e Informática (INEGI)
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Geographic Names Information System
+          Codeset_Source: U.S. Board on Geographic Names
+    Attribute:
+      Attribute_Label: Capital
+      Attribute_Definition: 
+        The classification of the capital, or an indication that the populated 
+        place is not a capital.
+      Attribute_Definition_Source: North American Atlas GIS Group
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: -1
+          Enumerated_Domain_Value_Definition: 
+            The populated place is not a capital.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: 
+            The populated place is a State, Provincial, or Territorial capital.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: 
+            The populated place is a national capital.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+    Attribute:
+      Attribute_Label: StateAbb
+      Attribute_Definition: 
+        The International Organization for Standards (ISO) code for the State, 
+        Province,or Territory.  The code consists of a two-character country code 
+        followed by a two or three character State, Province, or Territory code.
+      Attribute_Definition_Source: North American Atlas GIS Group
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: ISO 3166-2 codes for Canada
+          Codeset_Source: 
+            http://encyclopedia.thefreedictionary.com/ISO%203166-2%20codes%20for%20Canada
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: ISO 3166-2 codes for Mexico
+          Codeset_Source: 
+            http://encyclopedia.thefreedictionary.com/ISO%203166-2%20codes%20for%20Mexico
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: ISO 3166-2 codes for the United States
+          Codeset_Source: 
+            http://encyclopedia.thefreedictionary.com/ISO%203166-
+            2%20codes%20for%20the%20United%20States
+    Attribute:
+      Attribute_Label: Country
+      Attribute_Definition: 
+        The country in which the populated place exists.
+      Attribute_Definition_Source: North American Atlas GIS Group
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAN
+          Enumerated_Domain_Value_Definition: The populated place is in Canada.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MEX
+          Enumerated_Domain_Value_Definition: The populated place is in Mexico.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: USA
+          Enumerated_Domain_Value_Definition: 
+            The populated place is in the United States of America.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FN
+          Enumerated_Domain_Value_Definition: 
+            The populated place is outside of Canada, Mexico, and the United 
+            States of America.
+          Enumerated_Domain_Value_Definition_Source: 
+            North American Atlas GIS Group
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Government of Canada, Natural Resources Canada, Canada Centre for Remote 
+          Sensing, GeoAccess Division
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: Room 650-615 Booth Street
+        City: Ottawa
+        State_or_Province: Ontario
+        Country: Canada
+        Postal_Code: K1A 0E9
+      Contact_Facsimile_Telephone: +01 613 947 2410
+      Contact_Electronic_Mail_Address: info@GeoGratis.cgdi.gc.ca
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: INEGI
+        Contact_Person: Jose Luis Ornelas de Anda
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: Avenida Héroe de Nacozari Sur 2301
+        Address: Fraccionamiento Jardines del Parque
+        City: Aguascalientes
+        State_or_Province: Aguascalientes
+        Country: Mexico
+        Postal_Code: 20270
+      Contact_Voice_Telephone: 52 449 910 5300 ext 5856
+      Contact_Electronic_Mail_Address: jornelas@antares.inegi.gob.mx
+      Hours_of_Service: 8:30 - 16:00 (CST)
+Distribution_Information:
+  Distributor: 
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: EROS Data Center, U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 47914 252nd Street
+        City: Sioux Falls
+        State_or_Province: SD
+        Country: USA
+        Postal_Code: 57198-0001
+      Contact_Voice_Telephone: 800 252 4547
+      Contact_Voice_Telephone: 605 594 6151
+      Contact_TDD/TTY_Telephone: 605 594 6933
+      Contact_Facsimile_Telephone: 605 594 6589
+      Contact_Electronic_Mail_Address: custserv@usgs.gov
+      Hours_Of_Service: 
+        Monday through Friday, 8:00 a.m. to 4:00 p.m., Central Time
+  Distribution_Liability: 
+    Although these data have been processed successfully on computer systems at 
+    Natural Resources Canada, Instituto Nacional de Estadística Geografía e 
+    Informática, and the U.S. Geological Survey, no warranty expressed or 
+    implied is made by these agencies regarding the utility of the data on any 
+    other system, nor shall the act of distribution constitute any such 
+    warranty.  No responsibility is assumed by these agencies in the use of 
+    these data.  
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARCE
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/popplaces/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: GML
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/popplaces/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI Shapefile
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/popplaces/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Digital_Form: 
+      Digital_Transfer_Information: 
+        Format_Name: SDTS 
+      Digital_Transfer_Option: 
+        Online_Option: 
+          Computer_Contact_Information: 
+            Network_Address: 
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/popplaces/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Fees:
+      Gratuit-Free
+
+Metadata_Reference_Information:
+  Metadata_Date: 20040709
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Government of Canada, Natural Resources Canada, Canada Centre for 
+          Remote Sensing, The Atlas of Canada
+      Contact_Position: Atlas of Canada Client Services
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: Room 650-615 Booth Street
+        City: Ottawa
+        State_or_Province: Ontario
+        Country: Canada
+        Postal_Code: K1A 0E9
+      Contact_Facsimile_Telephone: +01 613 947 2410
+      Contact_Electronic_Mail_Address: info@atlas.gc.ca
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Dirección General de Geografía, INEGI
+      Contact_Position: Administrador de Metadatos Geográficos
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: Av Heroe de Nacozari Sur 2301
+        Address: Fracc Jardines del Parque
+        City: Aguascalientes
+        State_or_Province: Aguascalientes
+        Country: Mexico
+        Postal_Code: 20270
+      Contact_Voice_Telephone: 52 449 910 53 00 ext 5856
+      Contact_Electronic_Mail_Address: rarrioja@dgg.inegi.gob.mx
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Peg Rawson 
+        Contact_Organization: U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 561 National Center
+        City: Reston
+        State_or_Province: Virginia
+        Country: USA
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 703 648 4183
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+  Metadata_Standard_Name: 
+    FGDC Content Standards for Digital Geospatial Metadata 
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information: 
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
+
