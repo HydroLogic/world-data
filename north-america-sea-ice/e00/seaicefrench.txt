@@ -1,0 +1,542 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: 
+        Gouvernement du Canada, Ressources naturelles Canada, Centre canadien de 
+        télédétection, Atlas du Canada
+      Originator: Instituto Nacional de Estadística Geografía e Informática 
+      Originator: U.S. Geological Survey
+      Publication_Date: 200406
+      Title: Atlas de l’Amérique du Nord – Glaces de mer
+      Geospatial_Data_Presentation_Form: Données numériques vectorielles 
+      Publication_Information:
+        Publication_Place: Ottawa, Ontario, Canada
+        Publisher: Gouvernement du Canada
+      Online_Linkage:
+        http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/seaice/
+      Publication_Information:
+        Publication_Place: Aguascalientes, Aguascalientes, Mexique
+        Publisher: 
+          Instituto Nacional de Estadística, Geografía e Informática (INEGI)
+      Online_Linkage: http://antares.inegi.gob.mx/atlas_norteamerica/
+      Publication_Information:
+        Publication_Place: Reston, Virginie, É.-U.
+        Publisher: U.S. Geological Survey
+      Online_Linkage: http://nationalatlas.gov/atlasftp.html
+
+  Description:
+    Abstract:
+      Le Canada (Ressources naturelles Canada), le Mexique (Instituto Nacional 
+      de Estadística Geografía e Informática), les États-Unis (U.S. Geological 
+      Survey) et la Commission nord-américaine de coopération environnementale 
+      ont entrepris une initiative conjointe dans laquelle s’inscrivent leurs 
+      programmes respectifs de l’Atlas de l’Amérique du Nord. Cette initiative a 
+      mené à la publication (juin 2004) de plusieurs nouveaux produits, soit une 
+      carte papier à jour de l’Amérique du Nord, ainsi que les jeux de données 
+      géospatiales connexes et les métadonnées qui leur sont rattachées. Chaque 
+      pays partenaire a rendu possible la visualisation et le téléchargement en 
+      ligne de ces jeux de données.
+
+      Les données de l’Atlas de l’Amérique du Nord sont regroupées en jeux de 
+      données géospatiales normalisées à l’échelle de 1/10 000 000. Diverses 
+      couches de données de base (p. ex. routes, chemins de fer, centres 
+      habités, limites administratives, hydrographie, bathymétrie, glaces de mer 
+      et glaciers) ont été intégrées afin de s’assurer que leur positionnement 
+      relatif est correct. Cet ensemble de jeux de données constitue une base à 
+      laquelle d’autres données thématiques de l’Atlas de l’Amérique du Nord 
+      pourront être intégrées. Les données de l’Atlas de l’Amérique du Nord 
+      couvrant des régions situées à l’extérieur du Canada, du Mexique et 
+      des États-Unis n’ont été incluses qu’afin de fournir un contexte complet.
+
+      Le jeu de données intitulé « Atlas de l’Amérique du Nord – Glaces de mer » 
+      représente l’étendue approximative des zones marines arctiques qui sont 
+      recouvertes de glace polaire. Les données, qui ont été fournies par le 
+      Service canadien des glaces, ont été utilisées pour produire la série de 
+      cartes de référence à l’échelle de 1/6 000 000 de l’Atlas national du 
+      Canada. Elles sont représentées sous forme de polygones qui indiquent la 
+      limite minimale moyenne des glaces pendant une période de 30 ans allant de 
+      1969 à 1999.  
+
+    Purpose:
+      Les données de l’Atlas de l’Amérique du Nord sont destinées à l’analyse et 
+      à la visualisation géographiques à l’échelle nationale et continentale. 
+      Elles devraient être visualisées et analysées à des échelles convenant aux 
+      données à l’échelle de 1/10 000 000. Ressources naturelles Canada, 
+      l’Instituto Nacional de Estadística Geografía e Informática et 
+      le U.S. Geological Survey n’assument aucune responsabilité quant à leur 
+      utilisation. 
+    Supplemental_Information:
+      La Commission nord-américaine de coopération environnementale (CCE) est un 
+      organisme international qui a été fondé par le Canada, le Mexique et 
+      les États-Unis en vertu de l’Accord nord-américain de coopération dans le 
+      domaine de l’environnement (ANACDE). La CCE a été formée afin d’aborder 
+      des questions environnementales, de contribuer à la prévention de 
+      différends en matière d’environnement et de commerce, ainsi que de 
+      promouvoir l’application efficace des lois environnementales. L’ANACDE 
+      complète les dispositions environnementales de l’Accord de libre-échange 
+      nord-américain (ALENA). Il est possible d’obtenir de plus amples 
+      renseignements sur la CCE sur le site Web
+      http://www.cec.org/ ou à l’adresse suivante : 
+      >Commission nord-américaine de coopération environnementale
+      >393, rue St-Jacques Ouest
+      >Bureau 200
+      >Montréal (Québec)
+      >H2Y 1N9 Canada
+      >
+      >Téléphone: (514) 350-4300
+      >Fax: (514) 350-4314
+      >Courrier électronique: info@ccemtl.org
+      >
+      Tous les jeux de données de l’Atlas de l’Amérique du Nord sont disponibles 
+      sous quatre formats : Arc/INFO Export (e00), ArcView Shapefile, Geography 
+      Markup Language (GML) et Spatial Data Transfer Standard (SDTS).
+
+      Bien que ces données soient distribuées sous forme de coordonnées 
+      géographiques, la carte de l’Atlas de l’Amérique du Nord a été dressée en 
+      projection équivalente de Lambert, d’après les paramètres suivants:
+      >Longitude_of_Projection_Center: -100.00 
+      >Latitude_of_Projection_Center: 45.00 
+      >False_Easting (metres): 0.0 
+      >False_Northing (metres): 0.0 
+      >Semi-major_Axis: 6370997.0 
+      >Denominator_of_Flattening_Ratio: 1.0
+      >Ellipsoid_Name: Sphère 
+      >Units: Mètres
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 200406
+    Currentness_Reference: Date de publication 
+
+  Status:
+    Progress: Terminé
+    Maintenance_and_Update_Frequency: Irrégulier 
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 152.0 
+      East_Bounding_Coordinate: 4.0
+      North_Bounding_Coordinate: 90.0
+      South_Bounding_Coordinate: -5.0
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Aucun
+      Theme_Keyword: Glaces de mer
+      Theme_Keyword: Glace
+
+    Place:
+      Place_Keyword_Thesaurus: Aucun
+      Place_Keyword: Latitude moyenne
+      Place_Keyword: Hémisphère Ouest
+      Place_Keyword: Hémisphère Nord
+      Place_Keyword: Amérique du Nord
+      Place_Keyword: ALENA
+      Place_Keyword: Accord de libre-échange nord-américain 
+      Place_Keyword: Canada
+      Place_Keyword: Mexique
+      Place_Keyword: États-Unis
+
+  Access_Constraints: Aucune
+  Use_Constraints: 
+    Toutes les données sur le Canada et d’autres endroits situés à       
+    l’extérieur du Mexique et des États-Unis sont visées par l’accord 
+    d’utilisation des données numériques du site Web GéoGratis (voir 
+    http://geogratis.cgdi.gc.ca/f_license.html).
+
+    Aucune limite d’utilisation n’a été établie quant aux données sur le Mexique 
+    et les États-Unis. Il serait toutefois apprécié que les produits basés sur 
+    ces données soient accompagnés d’un remerciement adressé aux responsables de 
+    l’Atlas de l’Amérique du Nord, à l’Instituto Nacional de Estadística 
+    Geografía e Informática, à Ressources naturelles Canada et au 
+    U.S. Geological Survey.
+
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Gouvernement du Canada, Ressources naturelles Canada, Centre canadien 
+          de télédétection, Atlas du Canada
+      Contact_Position: Services à la clientèle de l’Atlas du Canada
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: 615, rue Booth, bureau 650
+        City: Ottawa
+        State_or_Province: Ontario
+        Country: Canada
+        Postal_Code: K1A 0E9
+      Contact_Facsimile_Telephone: +01 613 947 2410
+      Contact_Electronic_Mail_Address: info@atlas.gc.ca
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jorge Padilla Noriega
+        Contact_Organization: Dirección General de Geografía, INEGI
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: Av Heroe de Nacozari Sur 2301
+        Address: Fracc Jardines del Parque
+        City: Aguascalientes
+        State_or_Province: Aguascalientes
+        Country: Mexique
+        Postal_Code: 20270
+      Contact_Voice_Telephone: 52 449 910 5349
+      Contact_Electronic_Mail_Address: jorge.padilla@inegi.gob.mx
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: John Hutchinson
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: Centre de données EROS du USGS
+        City: Sioux Falls
+        State_or_Province: Dakota du Sud
+        Country: États-Unis
+        Postal_Code: 57198-0001
+      Contact_Voice_Telephone: 605 594 6049
+      Contact_Facsimile_Telephone: 605 594 6529
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: 
+      Lorsque possible, la qualité des données d’attributs a été contrôlée en 
+      produisant des affichages numériques ou des tracés sur support papier avec 
+      symboles et en les vérifiant visuellement d’après des données de référence 
+      sur support numérique ou papier. Les données d’attributs qui n’ont pas été 
+      ainsi examinées ont fait l’objet d’une recherche interactive visant à 
+      relever des anomalies (p. ex. dédoublement de données dans les champs ne 
+      devant comporter qu’une seule valeur et codage erroné d’entités). Les 
+      données de l’Atlas de l’Amérique du Nord pour des régions situées à 
+      l’extérieur du Canada, du Mexique et des États-Unis n’ont été incluses 
+      qu’afin de fournir un contexte complet; Ressources naturelles Canada, 
+      l’Instituto Nacional de Estadística Geografía e Informática et le U.S. 
+      Geological Survey n’assument aucune responsabilité quant à l’intégralité, 
+      l’exactitude ou la présentation de ces données.
+  Logical_Consistency_Report: 
+    Afin d’établir une structure topologique des polygones, on a défini une 
+    topologie et effectué un contrôle de la qualité des données des polygones 
+    sur les glaces de mer. 
+  Completeness_Report:
+    Ce jeu comprend des données sur les limites minimales moyennes des glaces de 
+    mer pour une période de 30 ans allant de 1969 à 1999 et pour l’ensemble de 
+    l’Amérique du Nord et de l’Arctique, à l’échelle de 1/10 000 000.  
+    L’intégralité des données découle du contenu des données de base, de 
+    l’intégration effectuée par les cartographes et du contrôle de la qualité du 
+    contenu effectué dans chaque pays.
+  Positional_Accuracy: 
+    Horizontal_Positional_Accuracy: 
+      Horizontal_Positional_Accuracy_Report: 
+        L’exactitude du positionnement est indéterminée. Le positionnement est 
+        fonction de l’exactitude des données de base et du résultat des 
+        processus de généralisation et d’intégration. Les données de l’Atlas de 
+        l’Amérique du Nord couvrant des régions situées à l’extérieur du Canada, 
+        du Mexique et des États-Unis n’ont été incluses qu’afin de fournir un 
+        contexte complet; Ressources naturelles Canada, l’Instituto Nacional de 
+        Estadística Geografía e Informática et le U.S. Geological Survey 
+        n’assument aucune responsabilité quant à l’intégralité, l’exactitude ou 
+        la présentation de ces données.
+
+  Lineage:
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            Gouvernement du Canada, Ressources naturelles Canada, Centre 
+            canadien de télédétection, Atlas du Canada
+          Publication_Date: 2002
+          Title: 
+            Série de cartes de référence à l’échelle de 1/6 000 000 de l’Atlas 
+            national du Canada – Glaces de mer 
+          Geospatial_Data_Presentation_Form: Données numériques vectorielles    
+          Publication_Information:
+            Publication_Place: Ottawa, Ontario, Canada
+            Publisher: 
+              Gouvernement du Canada, Ressources naturelles Canada, Centre 
+              canadien de télédétection, Atlas du Canada
+      Source_Scale_Denominator: 6 000 000
+      Type_of_Source_Media: En ligne
+      Source_Time_Period_of_Content:
+        Time_Period_Information: 
+          Single_Date/Time:
+            Calendar_Date: 1999
+        Source_Currentness_Reference: État au sol
+      Source_Citation_Abbreviation: Glaces de mer AC 6M
+      Source_Contribution: Données spatiales et d’attributs
+
+    Source_Information: 
+      Source_Citation:
+        Citation_Information:
+          Originator: 
+            Gouvernement du Canada, Ressources naturelles Canada, Centre 
+            canadien de télédétection, Atlas du Canada
+          Originator: Instituto Nacional de Estadística Geografía e Informática 
+          Originator: U.S. Geological Survey
+          Publication_Date: 200406
+          Title: Atlas de l’Amérique du Nord – Hydrographie
+          Geospatial_Data_Presentation_Form: Données numériques vectorielles    
+          Publication_Information:
+            Publication_Place: Ottawa, Ontario, Canada
+            Publisher: 
+              Gouvernement du Canada, Ressources naturelles Canada, Centre 
+              canadien de télédétection, Atlas du Canada
+          Publication_Information:
+            Publication_Place: Aguascalientes, Aguascalientes, Mexique
+            Publisher: 
+              Instituto Nacional de Estadística, Geografía e Informática 
+              (INEGI)
+          Publication_Information:
+            Publication_Place: Reston, Virginie, É.-U.
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 10 000 000
+      Type_of_Source_Media: En ligne
+      Source_Time_Period_of_Content:
+        Time_Period_Information: 
+          Single_Date/Time:
+            Calendar_Date: 2004
+        Source_Currentness_Reference: Date de publication 
+      Source_Citation_Abbreviation: AAN - Hydro
+      Source_Contribution: Données spatiales
+
+    Process_Step:
+      Process_Description:
+        Le dessin au trait issu de la carte de référence à 
+        l’échelle de 1/6 000 000 de l’Atlas du Canada a fait l’objet d’une 
+        projection et d’un ajustement à la couche de l’Atlas de l’Amérique du 
+        Nord à l’échelle de 1/10 000 000 sur l’hydrographie. Les cartographes de 
+        l’Atlas du Canada ont effectué l’intégration et la généralisation des 
+        données en s’assurant que la représentation cartographique convient à 
+        une échelle de 1/10 000 000. Une topologie des polygones a été établie 
+        afin que les glaces de mer puissent être représentées sous forme de 
+        polygones et que des aplats puissent servir à la représentation 
+        cartographique. Chacun des trois pays a effectué son propre contrôle de 
+        la qualité de la représentation cartographique.
+      Source_Used_Citation_Abbreviation: Glaces de mer AC 6M
+      Source_Used_Citation_Abbreviation: AAN - Hydro
+      Process_Date: 2004
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vectorielle
+  Point_and_Vector_Object_Information: 
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Polygones-GT composés de chaînes
+      Point_and_Vector_Object_Count: 81
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic: 
+      Latitude_Resolution: 0.000001 
+      Longitude_Resolution: 0.000001
+      Geographic_Coordinate_Units: Degrés et décimales
+    Geodetic_Model: 
+      Horizontal_Datum_Name: Système de référence nord-américain de 1983
+      Ellipsoid_Name: Système de référence géodésique de 1980
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Sea Ice
+      Entity_Type_Definition: 
+        Étendues marines recouvertes de glace permanente. Les étendues 
+        représentent les limites minimales moyennes des glaces pendant une 
+        période de 30 ans allant de 1969 à 1999. 
+      Entity_Type_Definition_Source: 
+        Services à la clientèle de l’Atlas du Canada
+    Attribute:
+      Attribute_Label: UIDENT
+      Attribute_Definition:
+        Numéro d’identification unique attribué à chaque entité dans les données 
+        de l’Atlas de l’Amérique du Nord. Les deux derniers chiffres de 
+        l'identificateur sont un suffixe montrant la couche cartographique.
+      Attribute_Definition_Source: 
+        Groupe du SIG de l’Atlas de l’Amérique du Nord
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 110
+          Range_Domain_Maximum: 8110
+    Attribute:
+      Attribute_Label: Type
+      Attribute_Definition: 
+        Selon que l’étendue représente des glaces de mer ou des îles.
+      Attribute_Definition_Source: 
+        Groupe du SIG de l’Atlas de l’Amérique du Nord
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 28
+          Enumerated_Domain_Value_Definition: 
+            Étendue approximative de la glace polaire permanente.
+          Enumerated_Domain_Value_Definition_Source: 
+            Groupe du SIG de l’Atlas de l’Amérique du Nord
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9999
+          Enumerated_Domain_Value_Definition: 
+            Île entièrement entourée de glace polaire permanente.
+          Enumerated_Domain_Value_Definition_Source: 
+            Groupe du SIG de l’Atlas de l’Amérique du Nord
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Gouvernement du Canada, Ressources naturelles Canada, Centre canadien 
+          de télédétection, Division GéoAccès
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: 615, rue Booth, bureau 650
+        City: Ottawa
+        State_or_Province: Ontario
+        Country: Canada
+        Postal_Code: K1A 0E9
+      Contact_Facsimile_Telephone: +01 613 947 2410
+      Contact_Electronic_Mail_Address: info@GeoGratis.cgdi.gc.ca
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: INEGI
+        Contact_Person: Jose Luis Ornelas de Anda 
+      Contact_Address:
+        Address_Type: Adresse postale 
+        Address: Avenida Heroe de Nacozari Sur 2301
+        Address: Fraccionamiento Jardines del Parque
+        City: Aguascalientes
+        State_or_Province: Aguascalientes
+        Country: Mexique
+        Postal_Code: 20270
+      Contact_Voice_Telephone: 52 449 910 5300 ext 5856
+      Contact_Electronic_Mail_Address: jornelas@antares.inegi.gob.mx
+      Hours_Of_Service: 
+        Du lundi au vendredi, de 8 :30 h à 16 h (CST)
+Distribution_Information:
+  Distributor: 
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Centre de données EROS du U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: 47914 252nd Street
+        City: Sioux Falls
+        State_or_Province: Dakota du Sud
+        Country: États-Unis
+        Postal_Code: 57198-0001
+      Contact_Voice_Telephone: 800 252 4547
+      Contact_Voice_Telephone: 605 594 6151
+      Contact_TDD/TTY_Telephone: 605 594 6933
+      Contact_Facsimile_Telephone: 605 594 6589
+      Contact_Electronic_Mail_Address: custserv@usgs.gov
+      Hours_Of_Service: 
+        Du lundi au vendredi, de 8 h à 16 h (HNC)
+
+  Distribution_Liability: 
+    Bien que ces données aient été traitées avec succès au moyen des systèmes 
+    informatiques de Ressources naturelles Canada, de l’Instituto Nacional de 
+    Estadística Geografía e Informática et du U.S. Geological Survey, ces 
+    organismes n'offrent aucune garantie, ni explicite ni tacite, en ce qui 
+    concerne leur utilité sur un autre système et leur diffusion. En outre, ils 
+    n’assument aucune responsabilité quant à leur utilisation.  
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARCE
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/seaice/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: GML 
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/seaice/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Shapefile de l’ESRI
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/seaice/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Digital_Form: 
+      Digital_Transfer_Information: 
+        Format_Name: SDTS 
+      Digital_Transfer_Option: 
+        Online_Option: 
+          Computer_Contact_Information: 
+            Network_Address: 
+              Network_Resource_Name: 
+                http://geogratis.cgdi.gc.ca/download/frameworkdata/North_America_Atlas10M/seaice/
+              Network_Resource_Name: http://antares.inegi.gob.mx/atlas_norteamerica/
+              Network_Resource_Name: http://nationalatlas.gov/atlasftp.html
+    Fees:
+      Gratuit-Free
+
+Metadata_Reference_Information:
+  Metadata_Date: 20040709
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: 
+          Gouvernement du Canada, Ressources naturelles Canada, Centre canadien 
+          de télédétection, Atlas du Canada
+      Contact_Position: Services à la clientèle de l’Atlas du Canada
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: 615, rue Booth, bureau 650
+        City: Ottawa
+        State_or_Province: Ontario
+        Country: Canada
+        Postal_Code: K1A 0E9
+      Contact_Facsimile_Telephone: +01 613 947 2410
+      Contact_Electronic_Mail_Address: info@atlas.gc.ca
+  Metadata_Contact:
+   Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Dirección General de Geografía, INEGI
+      Contact_Position: Administrador de Metadatos Geográficos
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: Av Heroe de Nacozari Sur 2301
+        Address: Fracc Jardines del Parque
+        City: Aguascalientes
+        State_or_Province: Aguascalientes
+        Country: Mexique
+        Postal_Code: 20270
+      Contact_Voice_Telephone: 52 449 910 53 00 poste 5856
+      Contact_Electronic_Mail_Address: rarrioja@dgg.inegi.gob.mx
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Peg Rawson 
+        Contact_Organization: U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Adresse postale
+        Address: 561 National Center
+        City: Reston
+        State_or_Province: Virginie
+        Country: États-Unis
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 703 648 4183
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+  Metadata_Standard_Name: 
+    Normes du FGDC sur le contenu des métadonnées géospatiales numériques
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information: 
+    Metadata_Security_Classification_System: Aucun
+    Metadata_Security_Classification: Non classifié
+    Metadata_Security_Handling_Description: Aucune
+
