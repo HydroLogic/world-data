@@ -1,0 +1,631 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Kurt Riitters
+      Publication_Date: 200212
+      Title: Land Cover Diversity
+      Edition: 3
+      Geospatial_Data_Presentation_Form: Map
+      Publication_Information:
+        Publication_Place: Reston, VA
+        Publisher: National Atlas of the United States
+      Online_Linkage: <http://nationalatlas.gov/atlasftp.html>
+  Description:
+    Abstract: 
+      This map layer is an Arc/INFO grid map of North America, excluding Hawaii 
+      and including the Caribbean and most of Mexico, that portrays at 1 sq. 
+      km resolution an index of land cover diversity calculated at 729 sq. km.
+      scale.  The map layer was created by applying a spatial filter to a 
+      published map of seasonal land cover regions (Loveland et al. 1991) 
+      known as NASLCR1_2L which was obtained from the USGS EROS Data Center 
+      Distributed Active Archive Center (DAAC).  The spatial filter computed
+      Simpson's (1949) index of land cover diversity within 729 sq. km. (27 x 
+      27 pixels) windows from the proportions of different land cover types 
+      within a window.  The [0,1] continuous index was discretized, and a byte 
+      representation (range: [1,245], with zero reserved for missing values) 
+      of the index value was stored at the center location in each window. 
+      The resulting surface map was projected to a standard projection, and 
+      clipped to shorelines defined by the STATP075 shoreline map (USGS).
+      The data available through the National Atlas of the United States are
+      in GeoTIFF format.  This is a revised version of the May 2002 map layer, 
+      with a corrected shoreline for Greenland.
+
+    Purpose: 
+      These data were originally created as part of a global analysis of land 
+      cover diversity and pattern based on digital land cover maps derived 
+      from remote sensing (AVHRR) and produced by the Global Land Cover 
+      Characteristics project.  The land cover diversity map portrays relative 
+      diversity, considering both natural and anthropogenic land cover types, 
+      as a first step towards quantifying biodiversity at landscape-scale 
+      levels of biological organization.  No responsibility is assumed by the 
+      U.S. Geological Survey in the use of these data.
+    Supplemental_Information: 
+      In the online, interactive National Atlas of the United States, these 
+      data are grouped into 6 classes for display purposes.  The display image 
+      was created by using the Arc/INFO GRID command SLICE.  The resultant 
+      grid was converted into a TIFF file for display purposes only.  The 
+      following lookup table describes the diversity classes in the display 
+      TIFF image:
+      >Diversity index value         Color            RGB values
+      >-------------------------------------------------------------
+      >0                             Light Blue       132 193 255
+      >1-61                          Yellow           254 248 156
+      >62-96                         Light Orange     253 196 108
+      >97-128                        Dark Orange      251 126  88
+      >129-160                       Red              243  71  71
+      >161-191                       Light Brown      164 113  72
+      >192-245                       Dark Brown       123  93  62
+      >255 (unlabeled land area)     Gray             129 159 170
+      >
+
+      For further information about the Land Cover Characterization Program of 
+      the U.S. Geological Survey, please see 
+      <http://landcover.usgs.gov/index.html>.
+
+      The associated world file is included as part of the GeoTIFF.  The 
+      contents of the world file are:
+      >1001.0420
+      >0.000000
+      >0.000000
+      >-1001.0420
+      >-5760628.0000
+      >4488331.0000
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1992
+        Ending_Date: 1993
+    Currentness_Reference: Dates of satellite imagery.
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Irregular
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: 166
+      East_Bounding_Coordinate: -4
+      North_Bounding_Coordinate: 83
+      South_Bounding_Coordinate: 15
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Imagery/Base Maps/Earth Cover
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Biodiversity
+      Theme_Keyword: Land cover 
+      Theme_Keyword: Land cover diversity
+      Theme_Keyword: United States
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States
+      Place_Keyword: USA
+      Place_Keyword: Canada
+      Place_Keyword: Mexico
+      Place_Keyword: North America
+      Place_Keyword: Cuba
+      Place_Keyword: Caribbean
+      Place_Keyword: Puerto Rico
+      Place_Keyword: Virgin Islands
+    Place:
+      Place_Keyword_Thesaurus:
+        U.S. Department of Commerce, 1987, Codes for the Identification of the 
+        States, the District of Columbia and the Outlying Areas of The United
+        States, and Associated Areas (Federal Processing Standard 5-2):  
+        Washington, DC, National Institute of Standards and Technology.
+      Place_Keyword: Alabama
+      Place_Keyword: Alaska
+      Place_Keyword: Arizona
+      Place_Keyword: Arkansas
+      Place_Keyword: California
+      Place_Keyword: Colorado
+      Place_Keyword: Connecticut
+      Place_Keyword: Delaware
+      Place_Keyword: District of Columbia
+      Place_Keyword: Florida
+      Place_Keyword: Georgia
+      Place_Keyword: Idaho
+      Place_Keyword: Illinois
+      Place_Keyword: Indiana
+      Place_Keyword: Iowa
+      Place_Keyword: Kansas
+      Place_Keyword: Kentucky
+      Place_Keyword: Louisiana
+      Place_Keyword: Maine
+      Place_Keyword: Maryland
+      Place_Keyword: Massachusetts
+      Place_Keyword: Michigan
+      Place_Keyword: Minnesota
+      Place_Keyword: Mississippi
+      Place_Keyword: Missouri
+      Place_Keyword: Montana
+      Place_Keyword: Nebraska
+      Place_Keyword: Nevada
+      Place_Keyword: New Hampshire
+      Place_Keyword: New Jersey
+      Place_Keyword: New Mexico
+      Place_Keyword: New York
+      Place_Keyword: North Carolina
+      Place_Keyword: North Dakota
+      Place_Keyword: Ohio
+      Place_Keyword: Oklahoma
+      Place_Keyword: Oregon
+      Place_Keyword: Pennsylvania
+      Place_Keyword: Rhode Island
+      Place_Keyword: South Carolina
+      Place_Keyword: South Dakota
+      Place_Keyword: Tennessee
+      Place_Keyword: Texas
+      Place_Keyword: Utah
+      Place_Keyword: Vermont
+      Place_Keyword: Virginia
+      Place_Keyword: Washington
+      Place_Keyword: West Virginia
+      Place_Keyword: Wisconsin
+      Place_Keyword: Wyoming
+  Access_Constraints: None
+  Use_Constraints: 
+    None.  Acknowledgment of the National Atlas of the United States of 
+    America would be appreciated in products derived from these data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Kurt Riitters
+        Contact_Organization: U.S. Forest Service, Southern Research Station
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 3041 Cornwallis Road
+        City: Research Triangle Park
+        State_or_Province: NC
+        Postal_Code: 27709
+      Contact_Voice_Telephone: 919-549-4015
+      Contact_Electronic_Mail_Address: kriitters@fs.fed.us
+
+  Data_Set_Credit: 
+    The basic data from which this map was derived were provided by the USGS, 
+    EROS Data Center, Global Land Cover Characteristics Project.
+  Native_Data_Set_Environment: 
+    These data are presently stored in grid format, ESRI Arc/INFO version 
+    7.1.1 running under Solaris 2.5.1, workspace size approximately 20MB.  The 
+    data are also available in ARC EXPORT format, produced by Arc/INFO
+    version 7.1.1 running under Solaris 2.5.1, file size 20,686,335 bytes 
+    (compressed).  Compression is via standard UNIX COMPRESS running under 
+    Solaris 2.5.1.  The data available through the National Atlas of the 
+    United States are in GeoTIFF format.
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: 
+      The Simpson index is based on the proportions of different land cover 
+      types within a defined analysis window.  A statistical rule of thumb is 
+      that 50 observations are needed to accurately estimate a proportion.  
+      The analysis window was 27x27 pixels in size, or 729 pixels total, which 
+      exceeds the rule of thumb value of 50 needed to estimate a proportion.
+      Simpson's index is just one of many which could have been used to 
+      quantify 'diversity'; for a discussion of the relative strengths and 
+      weaknesses of various indices, please consult a standard textbook on 
+      quantitative ecology.  In comparison to other diversity indices, 
+      Simpson's index tends to be more sensitive to changes in abundant land
+      cover types and less sensitive to changes in rare cover types, and 
+      therefore less sensitive to isolated label errors (mis-classification) 
+      on the land cover map.  Like other indices, Simpson's index is best 
+      interpreted as a relative value, in comparison to other pixels on the 
+      same map.  Comparisons with other maps prepared from different data 
+      sources or at different scale are tenuous.
+  Logical_Consistency_Report: 
+    All cell values are in the range [0,255].  Zero represents ocean or other 
+    water, and 255 represents unlabeled land area.
+  Completeness_Report: 
+    Every cell identified as land surface in the original land cover map has a 
+    non-zero value representing the land cover diversity index.  Some coastal 
+    regions may have missing values as a result of reprojecting the diversity
+    map to a standard projection and clipping to a mask.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: 
+        The positional accuracy of the land cover diversity map is the same as
+        the positional accuracy of the land cover map from which the diversity 
+        map was derived.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: 1998
+          Title: 
+            GLCC map of seasonal land cover regions for North America, version 
+            1.2L
+          Publication_Information:
+            Publication_Place: Sioux Falls, SD
+            Publisher: USGS, Center for EROS 
+          Other_Citation_Details: 
+            The procedures used in development of this map are described in 
+            Loveland, T.R., Merchant, J.W., Ohlen, D.O., Brown, J.F., 1991.
+            Development of a Land-Cover Characteristics Database for the 
+            Conterminous U.S., Photogrammetric Engineering and Remote Sensing 
+            57:1453-1463.
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1992
+            Ending_Date: 1993
+        Source_Currentness_Reference: Dates of satellite imagery.
+      Source_Citation_Abbreviation: NA_SLCR
+      Source_Contribution: Land cover map (Seasonal Land Cover Regions)
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: 1997
+          Title: 1:7,500,000-scale State Boundaries 
+          Publication_Information:
+            Publication_Place: Reston, VA
+            Publisher: U.S. Geological Survey
+      Type_of_Source_Media: ftp site
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1972
+            Ending_Date: 1996
+        Source_Currentness_Reference: Ground condition.
+      Source_Citation_Abbreviation: STATP075
+      Source_Contribution: Shoreline information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Simpson, E.H.
+          Publication_Date: 19490430
+          Title: Measurement of diversity.
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: Macmillan and Co., Ltd.
+              Publication_Date: 19490430
+              Title: Nature
+              Edition: Volume 163, No. 4148
+              Other_Citation_Details: page 688
+      Type_of_Source_Media: Journal article
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1949
+        Source_Currentness_Reference: Publication date.
+      Source_Citation_Abbreviation: Nature1949
+      Source_Contribution: Description of diversity index measure
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Kurt Riitters
+          Publication_Date: 1998
+          Title: U.S. Diversity map
+          Publication_Information:
+            Publication_Place: Reston
+            Publisher: U.S. Geological Survey
+      Type_of_Source_Media: Internal file
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: SLDIV27_A
+      Source_Contribution: Source file for diversity image
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Kurt Riitters
+          Publication_Date: 1998
+          Title: U.S. Diversity map exchange file
+          Publication_Information:
+            Publication_Place: Reston
+            Publisher: U.S. Geological Survey
+      Type_of_Source_Media: Internal file
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: LCD729K.E00
+      Source_Contribution: Diversity image exchange file
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Kurt Riitters
+          Publication_Date: 199905
+          Title: Land Cover Diversity
+          Edition: 1
+          Publication_Information:
+            Publication_Place: Reston, VA 
+            Publisher: National Atlas of the United States
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times: 
+            Beginning_Date: 1992 
+            Ending_Date: 1993
+        Source_Currentness_Reference: Dates of satellite imagery.
+      Source_Citation_Abbreviation: LANDDIV_IMAGE99
+      Source_Contribution: Land Cover Diversity TIFF image.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Kurt Riitters
+          Publication_Date: 200205
+          Title: Land Cover Diversity
+          Publication_Information:
+            Publication_Place: Reston, VA
+            Publisher: National Atlas of the United States
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times: 
+            Beginning_Date: 1992 
+            Ending_Date: 1993
+        Source_Currentness_Reference: Dates of satellite imagery.
+      Source_Citation_Abbreviation: LANDDIV_IMAGE200205
+      Source_Contribution: Land Cover Diversity TIFF image.
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: National Imagery and Mapping Agency 
+          Publication_Date: 1990
+          Title: World Vector Shoreline
+          Publication_Information:
+            Publication_Place: Bethesda, MD
+            Publisher: National Imagery and Mapping Agency
+          Online_Linkage:
+            <http://www.ngdc.noaa.gov/mgg/shorelines/shorelines.html>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time: 
+            Calendar_Date: 1990 
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: WVS 
+      Source_Contribution: Shoreline information.
+
+
+    Process_Step:
+      Process_Description:  
+        Derivation of land cover diversity from land cover:
+
+        Land cover data (NA_SLCR) was obtained from EROS Data Center in band 
+        sequential (bsq) format.  The header was created using metadata for 
+        NA_SLCR, and brought into Arc/INFO using the IMAGEGRID command.
+
+        The land cover data was exported to ASCII format using the Arc/INFO 
+        command GRIDASCII, and the format was converted to an in-house format 
+        using an in-house software tool named ASC2TVA.C.
+
+        The map was subdivided into four (4) overlapping rectangles using an 
+        in-house software tool named SPLITTER.C.  The rectangles overlapped to 
+        avoid artifacts near image boundaries during the spatial filtering
+        operations.
+
+        The in-house spatial filtering program SPATCONV.C was used to process 
+        each of the four rectangles, to estimate Simpson's diversity index 
+        (described in Nature1949), as follows:  A 729 sq. km. (27x27 pixels) 
+        quadrat was centered on each pixel of the original land cover map. 
+        Simpson's index was then calculated as one minus the sum of the 
+        squares of the land cover proportions within the quadrat.  The index 
+        ranges from zero to one, with larger index values representing greater 
+        land cover diversity.  The calculated values were discretized to the 
+        range [1,255] and stored at one-kilometer spatial resolution.  Thus, a 
+        pixel value in this data represents the land cover diversity of the 
+        surrounding 729 sq. km. on the original land cover map.  Pixels 
+        representing water were included in the diversity calculations if the 
+        pixel at the center of the quadrat was not water, but no calculation 
+        was made if the quadrat was centered on a water pixel.
+
+        The transformation used to discretize the index values was:
+          >D = ( C * 254) + 1
+          >where
+          >D = discretized value in range [1,255]
+          >C = calculated value of Simpson's index in range [0,1]
+
+        If needed, the original calculated values can be approximated by 
+        applying the back-transformation:
+          >C = (D - 1) / 254
+
+        Note that the back-transformed values will be in steps of
+        approximately 0.00394 as a result of the discretization process 
+        (precision has been lost).
+
+        After spatial filtering, the map of diversity index values was 
+        constructed by: reassembling the four rectangles into a single image 
+        via an in-house software tool named LUMPER.C, which removed the 
+        overlapping parts of the rectangles; converting the format to ASCII 
+        using the in-house software tool TVA2ASC.C; and finally, bringing the 
+        file back into Arc/INFO using the command ASCIIGRID.
+
+        The georeferencing did not change as a result of reformatting, 
+        exporting, and importing, or spatial filtering.  The derived map is 
+        comparable on a pixel-by-pixel basis to the original land cover map.
+      Source_Used_Citation_Abbreviation: NA_SLCR
+      Source_Used_Citation_Abbreviation: Nature1949
+      Source_Produced_Citation_Abbreviation: SLDIV27_A
+      Process_Date: 1998
+    Process_Step:
+      Process_Description:
+        The derived diversity map (SLDIV27_A) was projected to the Lambert 
+        Azimuthal Equal Area projection, using the Arc/INFO command PROJECT.  
+        This projection is the standard projection used for image files in the 
+        National Atlas of the United States.  The only difference between
+        the original diversity map projection and the National Atlas 
+        projection is the latitude of the projection center, which is 50 
+        degrees 0' 0" in the original map, compared to 45 degrees 0' 0" in the 
+        National Atlas.  The new projection resulted in a slightly larger cell 
+        size (1001.042 meters square) in comparison to the original land cover 
+        and diversity maps (1000 meters square).
+
+        The image was clipped to the study area using the shoreline file, and 
+        the land areas without data were added.  This was accomplished by 
+        defining a grid mask using Arc/INFO's command POLYGRID and specifying 
+        a cell size of 1000.984 meters.  The clip was done in Arc/INFO GRID by 
+        setting the mask and analysis window (SETMASK and SETWINDOW) to the 
+        gridded version of STATP075, and overlaying.
+
+        The resulting map was visually inspected, then exported using the 
+        Arc/INFO command EXPORT with the options set to 'grid, no 
+        compression'.  The standard UNIX compress utility was applied to the 
+        exported file.
+      Source_Used_Citation_Abbreviation: STATP075
+      Source_Used_Citation_Abbreviation: SLDIV27_A
+      Source_Produced_Citation_Abbreviation: LCD729K.E00
+      Process_Date: 1998
+    Process_Step:
+      Process_Description:
+        The grid was converted to a TIFF image using the command GRIDIMAGE. 
+        Two files were created during the conversion, the TIFF image and a 
+        world file (.tfw extension) containing real-world coordinate 
+        transformation information.
+      Source_Used_Citation_Abbreviation: LCD729K.E00
+      Process_Date: 1999
+      Source_Produced_Citation_Abbreviation: LANDDIV_IMAGE99
+
+    Process_Step:
+      Process_Description:
+        A GeoTIFF Revision 1.0 header was added and PackBits compression was
+        applied to the image.
+      Source_Used_Citation_Abbreviation: LANDDIV_IMAGE99
+      Process_Date: 200205
+      Source_Produced_Citation_Abbreviation: LANDDIV_IMAGE200205
+
+    Process_Step:
+      Process_Description:
+        Image data for Greenland were adjusted and remasked to correct for 
+        geometric distortion in the northwest part of the island between the 
+        Robeson Channel and Cape Morris Jesup, and to improve registration with 
+        a new, corrected coastline derived from World Vector Shoreline (WVS). 
+
+        A link coverage was created in ArcEdit containing links between the 
+        original Greenland data and the new coastline.  The link coverage was 
+        used in the Arc Adjust command to perform a linear transformation with 
+        nearest neighbor resampling on the original image, stored as an Arc/INFO 
+        grid dataset.  The resulting image is geometrically correct and fits the 
+        WVS coastline.  This correction was applied to data for Greenland only; 
+        the rest of the image was left unchanged.
+      Source_Used_Citation_Abbreviation: LANDDIV_IMAGE_200205
+      Source_Used_Citation_Abbreviation: WVS
+      Process_Date: 200212
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Raster
+  Raster_Object_Information:
+    Raster_Object_Type: Grid Cell
+    Row_Count: 7265
+    Column_Count: 10030
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Azimuthal Equal Area
+        Lambert_Azimuthal_Equal_Area:
+          Longitude_of_Projection_Center: -100.00
+          Latitude_of_Projection_Center: 45.00
+          False_Easting: 0.0
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Row and column
+        Coordinate_Representation:
+          Abscissa_Resolution: 1001.042
+          Ordinate_Resolution: 1001.042
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: None
+      Ellipsoid_Name: Sphere
+      Semi-major_Axis: 6370997.0
+      Denominator_of_Flattening_Ratio: 1.0
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Land cover diversity grid cell
+      Entity_Type_Definition: 
+        Any of the data elements in the land cover diversity file.
+      Entity_Type_Definition_Source: U.S. Geological Survey
+    Attribute:
+      Attribute_Label: Land cover diversity grid cell value
+      Attribute_Definition: 
+        The value is a measure of the variety (diversity) of land cover 
+        classes in the area surrounding the grid cell.  Diversity is described 
+        by a range of values, where smaller values represent less diversity,
+        and larger values represent more diversity.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 245
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: Water
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 255
+          Enumerated_Domain_Value_Definition: Unlabeled land area
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          Earth Science Information Center, U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 507 National Center
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+      Contact_Voice_Telephone: 703-648-5920
+      Contact_Instructions:
+        In addition to the address above there are other ESIC offices 
+        throughout the country.  A full list of these offices is at
+        <http://geography.usgs.gov/esic/esic_index.html>.
+  Distribution_Liability:
+    Although these data have been processed successfully on a computer system 
+    at the U.S. Geological Survey, no warranty expressed or implied is made by 
+    the U.S. Geological Survey regarding the utility of the data on any other 
+    system, nor shall the act of distribution constitute any such warranty.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: TIFF
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name:
+                <http://nationalatlas.gov/atlasftp.html>   
+    Fees:
+      There is no charge for the map layer.
+
+Metadata_Reference_Information:
+  Metadata_Date: 20050923
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Peg Rawson
+        Contact_Organization: U.S. Geological Survey
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 12201 Sunrise Valley Drive
+        Address: MS-561 
+        City: Reston
+        State_or_Province: VA
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 703-648-4183
+      Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+  Metadata_Standard_Name: 
+    FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
