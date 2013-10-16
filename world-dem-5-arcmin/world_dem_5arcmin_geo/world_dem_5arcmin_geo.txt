@@ -1,0 +1,50 @@
+http://dbwww.essc.psu.edu/cgi-bin/geotree/list_datafiles.pl?1994-0004
+Etopo5 5-arcminute elevation data
+
+Data set reference code -- 1994-0004
+
+Documentation (preliminary version)
+Data files and directories
+
+world_dem_5arcmin_geo.bsq.gz [11 Mbyte]
+world_dem_5arcmin_geo.ddr [0.6 kbyte]
+world_dem_5arcmin_geo.his [0.2 kbyte]
+world_dem_5arcmin_geo.img.gz [11 Mbyte]
+world_dem_5arcmin_geo.lan.gz [11 Mbyte]
+Additional information is available on
+
+
+
+
+
+
+
+Directory for Digital elevation models
+
+Etopo5 5-arcminute elevation data
+Note:
+30-arcsecond DEMs for the entire world are now available from the EDC LANDDAAC.
+As of 2003 Aug. 28, a Shuttle Radar Topography Mission update to the 30-arcsecond DEMs is available for FTP download
+http://dbwww.essc.psu.edu/dbndx/tree/data/dem.html
+
+http://dbwww.essc.psu.edu/geotree/dbtop/data/dem/etopo5/doc
+# Preliminary documentation for world_dem_5arcmin_geo
+
+This data set containes spot elevations, in meters, on a 5 arcminute
+grid covering the entire world.
+
+16-bit signed integers are used for both land elevations and bathymetric
+values.
+
+The data set starts at 0 degrees longitude and 90 degrees north
+latitude.  There appears to be a partial bad line at 81 deg 15 min S,
+extending from 0 to 40 deg E, which has very much lower values than the
+lines immediately above or below; the bad pixels are not of constant
+value, but instead appear to increase slowly from west to east.
+
+The .bsq file contains a 4320 by 2160 rectangular array, with each row
+starting at 0 degress longitude and going eastwards around the earth,
+and with the first row starting at 90 degrees north latitude.
+
+The .img, .ddr, and .his files are standard LAS format; the .lan file is
+ERDAS 
