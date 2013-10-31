@@ -1,0 +1,20 @@
+<table>
+  <caption><cite><a href="http://thematicmapping.org/downloads/world_borders.php">World Borders Dataset Attribute Columns</a></cite></caption>
+  <thead><tr><th>COLUMN</th><th>TYPE</th><th>DESCRIPTION</th></tr></thead>
+  <tbody>
+    <tr><td>Shape</td><td>Polygon</td><td>Country/area border as polygon(s)</td></tr>
+    <tr><td>FIPS</td><td>String(2)</td><td>FIPS 10-4 Country Code</td></tr>
+    <tr><td>ISO2</td><td>String(2)</td><td>ISO 3166-1 Alpha-2 Country Code</td></tr>
+    <tr><td>ISO3</td><td>String(3)</td><td>ISO 3166-1 Alpha-3 Country Code</td></tr>
+    <tr><td>UN</td><td>Short Integer(3)</td><td>ISO 3166-1 Numeric-3 Country Code</td></tr>
+    <tr><td>NAME</td><td>String(50)</td><td>Name of country/area</td></tr>
+    <tr><td>AREA</td><td>Long Integer(7)</td><td>Land area, FAO Statistics (2002)</td></tr>
+    <tr><td>POP2005</td><td>Double(10,0)</td><td>Population, World Population Prospects (2005)</td></tr>
+    <tr><td>REGION</td><td>Short Integer(3)</td><td>Macro geographical (continental region), UN Statistics</td></tr>
+    <tr><td>SUBREGION</td><td>Short Integer(3)</td><td>Geographical sub-region, UN Statistics</td></tr>
+    <tr><td>LON</td><td>FLOAT (7,3)</td><td>Longitude</td></tr>
+    <tr><td>LAT</td><td>FLOAT (6,3)</td><td>Latitude</td></tr>
+  </tbody>
+</table>
+<p><cite><a href="http://thematicmapping.org/downloads/world_borders.php">World Borders Dataset</a></cite></p>
+
