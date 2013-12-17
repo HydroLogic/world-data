@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NOAA Coastal Digital Elevation Models</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/coastal/coastal.html">NOAA Coastal Digital Elevation Models</a></h2>
+	        <p>NOAA's National Geophysical Data Center (NGDC) builds and distributes high-resolution, coastal digital elevation models (DEMs) that integrate ocean bathymetry and land topography to support NOAA's mission to understand and predict changes in Earth's environment, and conserve and manage coastal and marine resources to meet our Nation's economic, social, and environmental needs. They can be used for modeling of coastal processes (tsunami inundation, storm surge, sea-level rise, contaminant dispersal, etc.), ecosystems management and habitat research, coastal and marine spatial planning, and community hazard mitigation and preparedness. </p>
+	        <p>For more information, please see <a href="http://ngdc.noaa.gov/mgg/coastal/coastal.html">http://ngdc.noaa.gov/mgg/coastal/coastal.html</a></p>]]></description>
+	<LookAt>
+		<longitude>-87.74641954318723</longitude>
+		<latitude>29.61197493972395</latitude>
+		<altitude>0</altitude>
+		<range>1704652.375268605</range>
+		<tilt>0</tilt>
+		<heading>0</heading>
+		<altitudeMode>relativeToGround</altitudeMode>
+	</LookAt>
+	<styleUrl>#intro-style</styleUrl>
+	<Style id="poly-style">
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="intro-style">
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<ScreenOverlay>
+    		<Icon><href>http://www.ngdc.noaa.gov/mgg/image/noaalogo79.png</href></Icon>
+    		<name>NOAA NGDC logo</name>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<size x="-1" y="-1" xunits="fraction" yunits="fraction"/>
+	</ScreenOverlay>	
+	<Folder>
+		<name>Coastal Relief Model</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/coastal/crm.html">NGDC 3 Arc-Second Coastal Relief Model</a></h2>
+	        <p>The Coastal Relief Model (CRM) database provides the first comprehensive view of the U.S. Coastal Zone; one that extends from the coastal state boundaries to as far offshore as the NOS hydrographic data will support a continuous view of the sea floor. In many cases, this seaward limit reaches out to, and in places even beyond the continental slope. The gridded database contains data for the entire coastal zone of the conterminous U.S., including Hawaii and Puerto Rico.</p>
+<p>For more information on the CRM, please see <a href="http://www.ngdc.noaa.gov/mgg/coastal/crm.html">http://www.ngdc.noaa.gov/mgg/coastal/crm.html</a></p>]]></description>
+		<LookAt>
+			<longitude>-86.9795563460541</longitude>
+			<latitude>29.20479563527838</latitude>
+			<altitude>0</altitude>
+			<range>2785191.900225482</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#intro-style</styleUrl>
+		<Style id="style">
+			<BalloonStyle>
+				<text>$[description]</text>
+				<textColor>ff000000</textColor>
+				<displayMode>default</displayMode>
+			</BalloonStyle>
+		</Style>
+		<NetworkLink>
+			<name>CRM Gulf Hillshade Image</name>
+			<LookAt>
+				<longitude>-86.97955638476041</longitude>
+				<latitude>29.20479535886348</latitude>
+				<altitude>0</altitude>
+				<range>2785865.349107245</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<Region>
+				<LatLonAltBox>
+					<north>51.306140775</north>
+					<south>23.999583335</south>
+					<east>-72.69385922500001</east>
+					<west>-100.000416665</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>0</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>http://ngdc.noaa.gov/mgg/coastal/gom/crm_gulf/0/0/0.kml</href>
+				<viewRefreshMode>onRegion</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+		<Name>New Orleans</Name>
+	</Folder>
+	<Folder>
+		<name>New Orleans, LA DEM</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">Digital Elevation Model of New Orleans, Louisiana</a></h2>
+	        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the New Orleans, LA area to support the modeling of coastal processes. The DEM covers the area surrounding New Orleans and Lake Pontchartrain, with coordinate boundaries 90.65&#176; to 89.3&#176; W and 29.70&#176; to 30.50&#176; N. at 1/3 arc-second cell size (&#126;10 meters). It is referenced to a horizontal datum of North American Datum of 1983 (NAD 83), and one of three vertical datums: North American Vertical Datum of 1988 (NAVD 88), Mean High Water (MHW) or Mean Lower Low Water (MLLW).</p>
+<p>The New Orleans DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html</a></p>
+<p>The NOAA VDatum DEM Project was funded by the American Recovery and Reinvestment Act (ARRA) of 2009 (<a href="http://www.recovery.gov/">http://recovery.gov</a>).</p>]]></description>
+		<LookAt>
+			<longitude>-89.83259820275336</longitude>
+			<latitude>30.07835412716412</latitude>
+			<altitude>0</altitude>
+			<range>248078.4819889203</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#intro-style</styleUrl>
+		<Style id="style">
+			<BalloonStyle>
+				<text>$[description]</text>
+				<textColor>ff000000</textColor>
+				<displayMode>default</displayMode>
+			</BalloonStyle>
+		</Style>
+		<Placemark>
+			<name>DEM Extent Polygon</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">Digital Elevation Model of New Orleans, Louisiana</a></h2>
+	        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the New Orleans, LA area to support the modeling of coastal processes. The DEM covers the area surrounding New Orleans and Lake Pontchartrain, with coordinate boundaries 90.65&#176; to 89.3&#176; W and 29.70&#176; to 30.50&#176; N. at 1/3 arc-second cell size (&#126;10 meters). It is referenced to a horizontal datum of North American Datum of 1983 (NAD 83), and one of three vertical datums: North American Vertical Datum of 1988 (NAVD 88), Mean High Water (MHW) or Mean Lower Low Water (MLLW).</p>
+<p>The New Orleans DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html</a></p>
+<p>The NOAA VDatum DEM Project was funded by the American Recovery and Reinvestment Act (ARRA) of 2009 (<a href="http://www.recovery.gov/">http://recovery.gov</a>).</p>]]></description>
+			<LookAt>
+				<longitude>-89.83259820275336</longitude>
+				<latitude>30.07835412716412</latitude>
+				<altitude>0</altitude>
+				<range>248078.4819889203</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#poly-style</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+-89.3,29.7,0 -89.3,30.5,0 -90.65000000000001,30.5,0 -90.65000000000001,29.7,0 -89.3,29.7,0 </coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<NetworkLink>
+			<name>DEM Hillshade Image</name>
+			<LookAt>
+				<longitude>-89.83259820275336</longitude>
+				<latitude>30.07835412716412</latitude>
+				<altitude>0</altitude>
+				<range>248078.4819889203</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<Region>
+				<LatLonAltBox>
+					<north>31.2170833907</north>
+					<south>29.7000462323</south>
+					<east>-89.13291654530001</east>
+					<west>-90.64995370370001</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>0</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>http://ngdc.noaa.gov/mgg/coastal/gom/new_orleans/0/0/0.kml</href>
+				<viewRefreshMode>onRegion</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+		<Name>New Orleans</Name>
+	</Folder>
+	<Folder>
+		<name>Mobile, AL DEM</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">Digital Elevation Model of Mobile, Alabama</a></h2>
+	        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the Mobile, AL area to support the modeling of coastal processes. The DEM covers the area surrounding Mobile Bay, with coordinate boundaries 88.3&#176; to 87.65&#176; W and 30.0&#176; to 31.0&#176; N at 1/3 arc-second cell size (&#126;10 meters). It is referenced to a horizontal datum of North American Datum of 1983 (NAD 83), and one of two vertical datums: North American Vertical Datum of 1988 (NAVD 88) or Mean High Water (MHW).
+<p>The Mobile DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html</a></p>
+<p>The NOAA VDatum DEM Project was funded by the American Recovery and Reinvestment Act (ARRA) of 2009 (<a href="http://www.recovery.gov/">http://recovery.gov</a>).</p>
+]]></description>
+		<LookAt>
+			<longitude>-87.89649769003457</longitude>
+			<latitude>30.56583209942993</latitude>
+			<altitude>0</altitude>
+			<range>205564.1304824563</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#intro-style</styleUrl>
+		<Style id="style">
+			<BalloonStyle>
+				<text>$[description]</text>
+				<textColor>ff000000</textColor>
+				<displayMode>default</displayMode>
+			</BalloonStyle>
+		</Style>
+		<Placemark>
+			<name>DEM Extent Polygon</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">Digital Elevation Model of Mobile, Alabama</a></h2>
+	        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the Mobile, AL area to support the modeling of coastal processes. The DEM covers the area surrounding Mobile Bay, with coordinate boundaries 88.3&#176; to 87.65&#176; W and 30.0&#176; to 31.0&#176; N at 1/3 arc-second cell size (&#126;10 meters). It is referenced to a horizontal datum of North American Datum of 1983 (NAD 83), and one of two vertical datums: North American Vertical Datum of 1988 (NAVD 88) or Mean High Water (MHW).
+<p>The Mobile DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html">http://www.ngdc.noaa.gov/mgg/inundation/vdatum/vdatum.html</a></p>
+<p>The NOAA VDatum DEM Project was funded by the American Recovery and Reinvestment Act (ARRA) of 2009 (<a href="http://www.recovery.gov/">http://recovery.gov</a>).</p>
+]]></description>
+			<LookAt>
+				<longitude>-87.89649769003457</longitude>
+				<latitude>30.56583209942993</latitude>
+				<altitude>0</altitude>
+				<range>205564.1304824563</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#poly-style</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+-87.64999999999999,30.00000000000001,0 -87.64999999999999,31.00000000000001,0 -88.3,31.00000000000001,0 -88.3,30.00000000000001,0 -87.64999999999999,30.00000000000001,0 </coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<NetworkLink>
+			<name>DEM Hillshade Image</name>
+			<LookAt>
+				<longitude>-87.89649769003457</longitude>
+				<latitude>30.56583209942993</latitude>
+				<altitude>0</altitude>
+				<range>205564.1304824563</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<Region>
+				<LatLonAltBox>
+					<north>31.5170833747</north>
+					<south>30.0000462163</south>
+					<east>-86.7829165453</east>
+					<west>-88.2999537037</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>0</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>http://ngdc.noaa.gov/mgg/coastal/gom/mobile/0/0/0.kml</href>
+				<viewRefreshMode>onRegion</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+		<Name>Mobile</Name>
+	</Folder>
+	<Folder>
+		<name>Biloxi, MS DEM</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/tsunami/">Digital Elevation Model of Biloxi, Mississippi</a></h2>
+	        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the Biloxi, MS area to support the modeling of coastal processes. The DEM covers Biloxi and offshore areas, with coordinate boundaries 89.3&#176; to 88.3&#176; W and 29.7&#176; to 30.6&#176; N at 1/3 arc-second cell size (&#126;10 meters). It is referenced to a horizontal datum of World Geodetic System of 1984 (WGS 84) and a vertical datum of Mean High Water (MHW).</p>
+<p>The Biloxi DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html">http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html</a></p>]]></description>
+		<LookAt>
+			<longitude>-88.70160196364442</longitude>
+			<latitude>30.17569491143654</latitude>
+			<altitude>0</altitude>
+			<range>243972.4670508468</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#intro-style</styleUrl>
+		<Style id="style">
+			<BalloonStyle>
+				<text>$[description]</text>
+				<textColor>ff000000</textColor>
+				<displayMode>default</displayMode>
+			</BalloonStyle>
+		</Style>
+		<Placemark>
+			<name>DEM Extent Polygon</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+	        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/tsunami/">Digital Elevation Model of Biloxi, Mississippi</a></h2>
+	        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the Biloxi, MS area to support the modeling of coastal processes. The DEM covers Biloxi and offshore areas, with coordinate boundaries 89.3&#176; to 88.3&#176; W and 29.7&#176; to 30.6&#176; N at 1/3 arc-second cell size (&#126;10 meters). It is referenced to a horizontal datum of World Geodetic System of 1984 (WGS 84) and a vertical datum of Mean High Water (MHW).</p>
+<p>The Biloxi DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html">http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html</a></p>]]></description>
+			<LookAt>
+				<longitude>-88.70160196364442</longitude>
+				<latitude>30.17569491143654</latitude>
+				<altitude>0</altitude>
+				<range>243972.4670508468</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#poly-style</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+-88.3,29.70000000000001,0 -88.3,30.59999999999999,0 -89.3,30.59999999999999,0 -89.3,29.70000000000001,0 -88.3,29.70000000000001,0 </coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<NetworkLink>
+			<name>DEM Hillshade Image</name>
+			<LookAt>
+				<longitude>-88.70160196364442</longitude>
+				<latitude>30.17569491143654</latitude>
+				<altitude>0</altitude>
+				<range>243972.4670508468</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<Region>
+				<LatLonAltBox>
+					<north>31.2170833864</north>
+					<south>29.700046228</south>
+					<east>-87.78291654900001</east>
+					<west>-89.29995370740001</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>0</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>http://ngdc.noaa.gov/mgg/coastal/gom/biloxi/0/0/0.kml</href>
+				<viewRefreshMode>onRegion</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+	</Folder>
+	<Folder>
+		<name>Panama City, FL DEM</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+			        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/tsunami/">Digital Elevation Model of Panama City, Florida</a></h2>
+			        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the Panama City, FL area to support the modeling of coastal processes. The DEM covers the area surrounding Panama City and St. Andrew Bay, with coordinate boundaries 86.1&#176; to 85.2&#176; W and 29.55&#176; to 30.5&#176; N at 1/3 arc-second cell size (~10 meters). It is referenced to a horizontal datum of World Geodetic System of 1984 (WGS 84) and a vertical datum of Mean High Water (MHW).</p>		
+<p>The Panama City DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html">http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html</a></p>]]></description>
+		<LookAt>
+			<longitude>-85.60383584113602</longitude>
+			<latitude>30.09525121471264</latitude>
+			<altitude>0</altitude>
+			<range>224925.0532815027</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#intro-style</styleUrl>
+		<Style id="style">
+			<BalloonStyle>
+				<text>$[description]</text>
+				<textColor>ff000000</textColor>
+				<displayMode>default</displayMode>
+			</BalloonStyle>
+		</Style>
+		<Placemark>
+			<name>DEM Extent Polygon</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<table width="600"> <tr><td> <img src="http://ngdc.noaa.gov/image/nesdisngdcleft.gif"/></td></tr> <tr><td> <a href="http://www.noaa.gov" title="go to NOAA web pages">NOAA</a> &gt; <a href="http://www.nesdis.noaa.gov" title="go to NOAA Satellite and Information Service web pages">NESDIS</a> &gt; <a href="http://ngdc.noaa.gov" title="go to NGDC home">NGDC</a> &gt; <a href="http://ngdc.noaa.gov/mggd.html">MGGD</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/mggd.html">Marine Geology &amp; Geophysics</a> &gt; <a href="http://www.ngdc.noaa.gov/mgg/bathymetry/relief.html">Bathymetry &amp; Relief</a>
+			        <h2><a href="http://ngdc.noaa.gov/mgg/inundation/tsunami/">Digital Elevation Model of Panama City, Florida</a></h2>
+			        <p>NOAA has developed an integrated bathymetric-topographic digital elevation model (DEM) of the Panama City, FL area to support the modeling of coastal processes. The DEM covers the area surrounding Panama City and St. Andrew Bay, with coordinate boundaries 86.1&#176; to 85.2&#176; W and 29.55&#176; to 30.5&#176; N at 1/3 arc-second cell size (~10 meters). It is referenced to a horizontal datum of World Geodetic System of 1984 (WGS 84) and a vertical datum of Mean High Water (MHW).</p>		
+<p>The Panama City DEM and supporting documentation are available on the project web site: <a href="http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html">http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html</a></p>]]></description>
+			<LookAt>
+				<longitude>-85.60383584113602</longitude>
+				<latitude>30.09525121471264</latitude>
+				<altitude>0</altitude>
+				<range>224925.0532815027</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#poly-style</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+-85.2,29.55000000000002,0 -85.2,30.50000000000001,0 -86.09999999999999,30.50000000000001,0 -86.09999999999999,29.55000000000002,0 -85.2,29.55000000000002,0 </coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<NetworkLink>
+			<name>DEM Hillshade Image</name>
+			<LookAt>
+				<longitude>-85.60383584113602</longitude>
+				<latitude>30.09525121471264</latitude>
+				<altitude>0</altitude>
+				<range>224925.0532815027</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<Region>
+				<LatLonAltBox>
+					<north>31.0670833824</north>
+					<south>29.550046224</south>
+					<east>-84.582916549</east>
+					<west>-86.09995370740001</west>
+					<minAltitude>0</minAltitude>
+					<maxAltitude>0</maxAltitude>
+				</LatLonAltBox>
+				<Lod>
+					<minLodPixels>0</minLodPixels>
+					<maxLodPixels>-1</maxLodPixels>
+					<minFadeExtent>0</minFadeExtent>
+					<maxFadeExtent>0</maxFadeExtent>
+				</Lod>
+			</Region>
+			<Style>
+				<ListStyle>
+					<listItemType>checkHideChildren</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Link>
+				<href>http://ngdc.noaa.gov/mgg/coastal/gom/panama_city/0/0/0.kml</href>
+				<viewRefreshMode>onRegion</viewRefreshMode>
+			</Link>
+		</NetworkLink>
+	</Folder>
+</Document>
+</kml>
